@@ -151,7 +151,7 @@ ubt ()	{
 	apt-get install apache2-utils squid3 -y
 	# Asking user to set a username via read and writing it into $usrn
 	usrn=birdbirdbird
-	usrp=gujjarwal1986
+	usrp=gggggggggggg
 	# Creating user with username from $usrn and asking user to set a password
 	htpasswd -b -c /etc/squid3/passwd $usrn $usrp
 	# Downloading Squid configuration
